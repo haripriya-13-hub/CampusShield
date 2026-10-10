@@ -1,0 +1,15 @@
+# dependencies and builds
+node_modules/
+venv/
+.venv/
+dist/
+__pycache__/
+*.pyc
+
+# private or generated data: never push these
+.env
+*.db
+model.joblib
+uploads/*
+!uploads/.gitkeep
+.vercel/
